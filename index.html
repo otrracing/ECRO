@@ -9,7 +9,7 @@
     <script> 
         async function getRedirects() {
             // Replace 'your_spreadsheet_id' with your actual Google Sheet ID
-            const sheetUrl = 'https://docs.google.com/spreadsheets/d/1WWtXI-cbUn4gLuzEFVnFYelmOfOGkZBEqmgHBtEIrro/gviz/tq?tqx=out:json';
+            const sheetUrl = 'https://docs.google.com/spreadsheets/d/1w9QPV2J2tsMdTPqLsIWN-RLJhtCbWYNXh4sGH0NAf-Y/gviz/tq?tqx=out:json';
 
             try {
                 // Fetch the data from the published Google Sheet
@@ -92,12 +92,12 @@
                 document.body.innerHTML = `
                     <h1>Welcome to OTR-ZRL!</h1>
                     <p>To access the correct form, please use the following URL format:</p>
-                    <p><strong>https://otrracing.github.io/DRS/?form=[sheet]&rider=[riderid]&team=[teamname]</strong></p>
+                    <p><strong>https://otrracing.github.io/ECRO/?form=[sheet]&rider=[riderid]&team=[teamname]</strong></p>
                     <p><strong>Examples:</strong></p>
                     <ul>
-                        <li><strong>With Rider ID:</strong> <code>https://otrracing.github.io/DRS/?form=form1&rider=12345</code></li>
-                        <li><strong>With Team Name:</strong> <code>https://otrracing.github.io/DRS/?form=form2&team=TeamA</code></li>
-                        <li><strong>Without Rider ID or Team Name:</strong> <code>https://otrracing.github.io/DRS/?form=form3</code></li>
+                        <li><strong>With Rider ID:</strong> <code>https://otrracing.github.io/ECRO/?form=form1&rider=12345</code></li>
+                        <li><strong>With Team Name:</strong> <code>https://otrracing.github.io/ECRO/?form=form2&team=TeamA</code></li>
+                        <li><strong>Without Rider ID or Team Name:</strong> <code>https://otrracing.github.io/ECRO/?form=form3</code></li>
                     </ul>
                     <p>Please replace <code>[form]</code>, <code>[riderid]</code>, and <code>[teamname]</code> with the appropriate values.</p>
                 `;
